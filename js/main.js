@@ -276,4 +276,10 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Завантажуємо зображення
     loadSlabImages();
+});
+
+// Завантаження хедера та футера при завантаженні сторінки
+document.addEventListener('DOMContentLoaded', () => {
+    loadComponent('#header-placeholder', '_header.html');
+    loadComponent('#footer-placeholder', '_footer.html');
 }); 
