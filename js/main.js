@@ -119,37 +119,26 @@ async function loadSlabImages() {
     if (!productsContainer) return;
 
     try {
-        // Отримуємо список всіх файлів з папки images/slabs
-        const response = await fetch('images/slabs/');
-        const text = await response.text();
+        // Отримуємо список зображень з JSON файлу
+        const response = await fetch('js/slabs.json');
+        const data = await response.json();
         
-        // Створюємо DOM парсер для аналізу HTML відповіді
-        const parser = new DOMParser();
-        const doc = parser.parseFromString(text, 'text/html');
-        
-        // Знаходимо всі посилання на .webp файли
-        const links = Array.from(doc.getElementsByTagName('a'))
-            .map(a => a.href)
-            .filter(href => href.endsWith('.webp'))
-            .map(href => href.split('/').pop()); // Отримуємо тільки ім'я файлу
-
         const itemsPerPage = 6;
         let currentPage = 1;
 
         function displayPage(page) {
             const start = (page - 1) * itemsPerPage;
             const end = start + itemsPerPage;
-            const pageItems = links.slice(start, end);
+            const pageItems = data.slabs.slice(start, end);
 
-            const productsHTML = pageItems.map(image => {
-                const slabName = getSlabName(image);
+            const productsHTML = pageItems.map(slab => {
                 return `
-                    <div class="product-item" onclick="createModal('images/slabs/${image}', '${slabName}')">
-                        <img src="images/slabs/${image}" alt="${slabName}">
+                    <div class="product-item" onclick="createModal('images/slabs/${slab.filename}', '${slab.name}')">
+                        <img src="images/slabs/${slab.filename}" alt="${slab.name}">
                         <div class="product-info">
-                            <h3>${slabName}</h3>
-                            <p>3200 x 1600 mm</p>
-                            <p>6mm thickness</p>
+                            <h3>${slab.name}</h3>
+                            <p>${slab.size}</p>
+                            <p>${slab.thickness} thickness</p>
                         </div>
                     </div>
                 `;
@@ -160,7 +149,7 @@ async function loadSlabImages() {
         }
 
         function updatePagination() {
-            const totalPages = Math.ceil(links.length / itemsPerPage);
+            const totalPages = Math.ceil(data.slabs.length / itemsPerPage);
             const paginationContainer = document.querySelector('.pagination');
             if (!paginationContainer) return;
 
@@ -198,15 +187,14 @@ async function loadSlabImages() {
         // Додаємо функцію changePage до глобального об'єкта window
         window.changePage = function(page) {
             currentPage = page;
-            displayPage(currentPage);
+            displayPage(page);
         };
 
         // Відображаємо першу сторінку
-        displayPage(currentPage);
-
+        displayPage(1);
     } catch (error) {
-        console.error('Error loading images:', error);
-        productsContainer.innerHTML = '<p>Error loading images. Please check if files exist in images/slabs/ folder.</p>';
+        console.error('Error loading slab images:', error);
+        productsContainer.innerHTML = '<p>Error loading images. Please try again later.</p>';
     }
 }
 

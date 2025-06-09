@@ -1,0 +1,214 @@
+{
+    "slabs": [
+        {
+            "filename": "Amazonia-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Amazonia",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Arctic-Blue-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Arctic Blue",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Artico-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Artico",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Basalt-Black-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Basalt Black",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Bellagio-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Bellagio",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Bianco-Lasa-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Bianco Lasa",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Blackfalls-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Blackfalls",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Blaze-Dark-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Blaze Dark",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Blaze-Snow-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Blaze Snow",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Bloomcore-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Bloomcore",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Breccia-Brown-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Breccia Brown",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Calacatta-White-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Calacatta White",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Ceppo-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Ceppo",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Colossal-Cream-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Colossal Cream",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Concerto-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Concerto",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Coralina-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Coralina",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Cosmopolitan-Black-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Cosmopolitan Black",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Crystallo-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Crystallo",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Essential-Gold-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Essential Gold",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Ferox-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Ferox",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Fior-Di-Bosco-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Fior Di Bosco",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Forest-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Forest",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Hydra-Argen-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Hydra Argen",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Hydra-Beige-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Hydra Beige",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Kaledonia-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Kaledonia",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Kalos-Bianco-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Kalos Bianco",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Legno-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Legno",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Limestone-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Limestone",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Macchia-Gold-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Macchia Gold",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Marvel-Gold-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Marvel Gold",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Montblanc-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Montblanc",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Nuvola-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Nuvola",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Opium-Black-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab-1.webp",
+            "name": "Opium Black",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Patagonia-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab-1.webp",
+            "name": "Patagonia",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        },
+        {
+            "filename": "Pierre-Blue-AGL-Surfaces-Techlam-Sintered-Stone-Large-Format-Outdoor-Slab.webp",
+            "name": "Pierre Blue",
+            "size": "3200 x 1600 mm",
+            "thickness": "6mm"
+        }
+    ]
+} 
