@@ -120,7 +120,7 @@ async function loadSlabImages() {
 
     try {
         // Отримуємо список зображень з JSON файлу
-        const response = await fetch('js/slabs.json');
+        const response = await fetch('/Porcelain/js/slabs.json');
         const data = await response.json();
         
         const itemsPerPage = 6;
@@ -133,8 +133,8 @@ async function loadSlabImages() {
 
             const productsHTML = pageItems.map(slab => {
                 return `
-                    <div class="product-item" onclick="createModal('images/slabs/${slab.filename}', '${slab.name}')">
-                        <img src="images/slabs/${slab.filename}" alt="${slab.name}">
+                    <div class="product-item" onclick="createModal('/Porcelain/images/slabs/${slab.filename}', '${slab.name}')">
+                        <img src="/Porcelain/images/slabs/${slab.filename}" alt="${slab.name}">
                         <div class="product-info">
                             <h3>${slab.name}</h3>
                             <p>${slab.size}</p>
@@ -249,25 +249,9 @@ function initMobileMenu() {
 document.addEventListener("DOMContentLoaded", function() {
     console.log('DOM Content Loaded');
     
-    // Завантажуємо хедер і ініціалізуємо мобільне меню
-    loadComponent('#header-placeholder', '_header.html')
-        .then(success => {
-            console.log('Header loaded:', success);
-            if (success) {
-                // Даємо невелику затримку для рендерингу DOM
-                setTimeout(initMobileMenu, 100);
-            }
-        });
-
-    // Завантажуємо футер
-    loadComponent('#footer-placeholder', '_footer.html');
+    // Ініціалізуємо мобільне меню
+    initMobileMenu();
     
     // Завантажуємо зображення
     loadSlabImages();
-});
-
-// Завантаження хедера та футера при завантаженні сторінки
-document.addEventListener('DOMContentLoaded', () => {
-    loadComponent('#header-placeholder', '_header.html');
-    loadComponent('#footer-placeholder', '_footer.html');
 }); 
